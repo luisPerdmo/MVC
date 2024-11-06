@@ -41,12 +41,12 @@ class CrearUsuario():
         self.txtRol.place(x=160, y=235, width=150, height=25)
 
         #Botones
-        self.iconoGuardar = tk.PhotoImage(file=r"Src/icons/disk.png")
+        self.iconoGuardar = tk.PhotoImage(file=r"MVC/mvc/Src/icons/disk.png")
         self.btnGuardar = tk.Button(self.ventana, text="Guardar", image=self.iconoGuardar, compound="left")
         self.btnGuardar.place(x=85, y=310, width=80, height=25)
         self.btnGuardar.bind("<Button-1>", self.guardarUsuario)
 
-        self.iconoLimpiar = tk.PhotoImage(file=r"Src/icons/textfield_delete.png")
+        self.iconoLimpiar = tk.PhotoImage(file=r"MVC/mvc/Src/icons/textfield_delete.png")
         self.btnLimpiar = tk.Button(self.ventana, text="Limpiar", image=self.iconoLimpiar)
         self.btnLimpiar.place(x=195, y=310, width=80, height=25)
 
